@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
 <body>
-    <a href="index.html">Главная</a><br>
-    <a href="catalog.html">Каталог</a><br>
-    <a href="#">Контакты</a><br>
-    <h1>Контакты</h1>
+    <a class="menu_links" href="index.html">Главная</a><br>
+    <a class="menu_links" href="catalog.html">Каталог</a><br>
+    <a class="menu_links" href="#">Контакты</a><br>
+    <h1 class="headline1_style">Контакты</h1>
     <li>Повар</li>
     <li>Курьер</li>
-    <li>СЕО сайта</li>
+    <li>СЕО сайта</li><br>
+    <h2 class="headline2_style">Желаете связаться с нами?</h2>
+    <form action="#">
+        Имя: <input type="text" class="input_style"><br>
+        Email: <input type="text" class="input_style"><br>
+        Введите данные с картинки: <input type="text" class="input_style"><br>
+        <img class="capcha_style" src="./img/1293971679_captcha-710x380.jpg" alt="capcha"><br>
+        <button class="button_style" type="submit">Отправить</button>
+        <button class="button_style" type="reset">Отмена</button>
+    </form>
 </body>
 </html>
