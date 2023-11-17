@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+html {
+    font-family: 'Gilroy';
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #FFF;
+}
+
+.header-menu {
+    height: 40px;
+    margin-top: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 500px;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu-list-home {
+    color: #F25822;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    gap: 41px;
+}
+
+.intro-left {
+    width: 522px;
+    height: 374px;
+}
+
+.intro-right-img {
+    width: 544px;
+    height: 374px;
+}
+
+.intro-title {
+    color: #000;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.intro-text {
+    margin-top: 17px;
+    color: #888;
+    font-size: 20px;
+    font-weight: 500;
+    width: 466px;
+}
+
+.intro-buttons {
+    display: flex;
+    margin-top: 37px;
+    gap: 72px;
+}
+
+.button-start {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+}
+
+.button-watch {
+    color: #AAA;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+
+.logo-list {
+    height: 243px;
+    margin-top: 162px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-logo {
+    margin-top: 97px;
+    width: 160px;
+    height: 50px;
+    flex-shrink: 0;
+}
