@@ -305,13 +305,14 @@ html {
 }
 
 .contact-info-grid {
-    margin-top: 33px;
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: start;
     align-content: center;
     align-items: center;
     justify-items: center;
+    grid-row-gap: 24.4px;
+    column-gap: 9px;
 }
 
 .contact-info-icon {
@@ -327,8 +328,46 @@ html {
 }
 
 .contact-text {
-color: #FFF;
-/* font-family: Roboto; */
-font-size: 14px;
-font-weight: 500;
+    color: #FFF;
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-weight: 500;
 }
+
+.contact-info-tittle {
+    margin-bottom: 33px;
+    color: #FFF;
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.middle-contact-text {
+    color: #FFF;
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.6;
+    width: 261px;
+}
+
+.right-contact-text {
+    color: #FFF;
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-weight: 500;
+    width: 261px;
+}
+
+.social-logos {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
