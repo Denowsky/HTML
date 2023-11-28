@@ -134,7 +134,7 @@ html {
 }
 
 .sect-second-intro {
-    background-color: #020A18;
+    /* background-color: #020A18; */
     margin-top: 157px;
 }
 
@@ -248,7 +248,7 @@ html {
 }
 
 .sect-third-intro {
-    background-color: #020A18;
+    /* background-color: #020A18; */
     margin-top: 243px;
     display: flex;
     width: 1146px;
@@ -329,7 +329,7 @@ html {
 
 .contact-text {
     color: #FFF;
-    /* font-family: Roboto; */
+    font-family: Roboto, sans-serif;
     font-size: 14px;
     font-weight: 500;
 }
@@ -337,14 +337,14 @@ html {
 .contact-info-tittle {
     margin-bottom: 33px;
     color: #FFF;
-    /* font-family: Roboto; */
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
 
 .middle-contact-text {
     color: #FFF;
-    /* font-family: Roboto; */
+    font-family: Roboto, sans-serif;
     font-size: 14px;
     font-style: italic;
     font-weight: 100;
@@ -354,7 +354,7 @@ html {
 
 .right-contact-text {
     color: #FFF;
-    /* font-family: Roboto; */
+    font-family: Roboto, sans-serif;
     font-size: 14px;
     font-weight: 500;
     width: 261px;
