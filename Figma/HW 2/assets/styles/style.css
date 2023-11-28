@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+html {
+    font-family: 'Gilroy';
+}
+
+body {
+    background-color: #FFF;
+}
+
+.upper-sect {
+    display: flex;
+    border: 1px solid #F30606;
+    height: 476px;
+    justify-content: center;
+}
+
+.upper-block-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.upper-block {
+    border: 1px solid #000;
+    width: 381px;
+    height: 291px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.block-img {
+    width: 70px;
+    height: 70px;
+}
+
+.block-tittle {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.block-text {
+    width: 310px;
+    height: 42px;
+    color: #666;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.block-link {
+    color: #000;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.block-content {
+    margin-left: 30px;
+}
+
+.bottom-sect {
+    margin-top: 10px;
+    height: 898px;
+    margin: 5px;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+}
+
+.bottom-sect-tittle {
+    margin-top: 92px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.bottom-sect-text {
+    color: #666;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 682px;
+    text-align: center;
+}
+
+.bottom-blocks-border {
+    width: 1440px;
+    height: 616px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.bottom-block {
+    width: 370px;
+    height: 549px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.bottom-block-img {
+    width: 370px;
+    height: auto;
+}
+
+.bottom-block-tittle {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bottom-block-text {
+    width: 310px;
+    height: 63px;
+    color: #AAA;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+
+.bottom-block-button {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+    margin-top: 20px;
+}
