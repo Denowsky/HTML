@@ -20,11 +20,21 @@
         <div class="header-right imgs">
             <img src="./assets/images/header/menu.svg" alt="">
             <img src="./assets/images/header/profile.svg" alt="">
-            <img src="./assets/images/header/cart.svg" alt="">
+            <div class="cart"><img src="./assets/images/header/cart.svg" alt="">
+                <div class="cart-counter">
+                    <p class="count">5</p>
+                </div>
+            </div>
         </div>
     </section>
     <section class="underheader-sect">
-        <div class="underheader-div-pic"><img src="./assets/images/underheader/dude_in_jacket.png" alt=""></div>
+        <div class="underheader-div-pic">
+            <picture>
+                <source class="mobile-img" media="(max-width:768px)"
+                    srcset="./assets/images/underheader/dude_in_jacket-mobile.png">
+                <img src="./assets/images/underheader/dude_in_jacket.png" alt="">
+            </picture>
+        </div>
         <div class="underheader-div-text">
             <h1 class="underheader-tittle">THE BRAND</h1>
             <p class="underheader-text">OF LUXERIOUS <span class="underheader-text fashion">FASHION</span></p>
@@ -83,7 +93,11 @@
                 </div>
             </div>
             <div class="bottom-grid-block">
-                <img src="./assets/images/bottom/secondwoman.jpg" alt="" class="bottom-block-img">
+                <div class="filtered-img">
+                    <img src="./assets/images/bottom/secondwoman.jpg" alt="" class="bottom-block-img">
+                    <div class="image-filter add-to-cart"></div>
+                    <div><button class="add-to-cart-button"><img src="./assets/images/header/cart.svg" alt="">Add to Cart</button></div>
+                </div>
                 <div class="bottom-block-text-content">
                     <h1 class="bottom-block-tittle">ELLERY X M'O CAPSULE</h1>
                     <p class="bottom-block-text">Known for her sculptural takes on traditional tailoring, Australian
